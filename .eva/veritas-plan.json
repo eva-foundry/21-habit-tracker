@@ -1,0 +1,321 @@
+{
+  "schema": "eva.veritas-plan.v1",
+  "generated_at": "2026-02-25T06:37:16.738Z",
+  "generated_from": [
+    "PLAN.md"
+  ],
+  "format_detected": "veritas",
+  "prefix": "F21",
+  "features": [
+    {
+      "id": "F21-01",
+      "title": "HABIT_ID API [ID=F21-HABIT_ID]",
+      "source_heading": "## Feature: HABIT_ID API [ID=F21-HABIT_ID]",
+      "stories": [
+        {
+          "id": "F21-01-001",
+          "title": "GET /{habit_id} [ID=F21-HABIT_ID-001]",
+          "feature_id": "F21-01",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F21-01-002",
+          "title": "PUT /{habit_id} [ID=F21-HABIT_ID-002]",
+          "feature_id": "F21-01",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F21-01-003",
+          "title": "DELETE /{habit_id} [ID=F21-HABIT_ID-003]",
+          "feature_id": "F21-01",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F21-01-004",
+          "title": "PATCH /{habit_id}/archive [ID=F21-HABIT_ID-004]",
+          "feature_id": "F21-01",
+          "source": "heading",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F21-02",
+      "title": "Quick Start",
+      "source_heading": "## Feature: Quick Start [ID=F21-02]",
+      "stories": [
+        {
+          "id": "F21-02-001",
+          "title": "1. Clone and Setup Backend",
+          "feature_id": "F21-02",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F21-02-002",
+          "title": "2. Setup Frontend (new terminal)",
+          "feature_id": "F21-02",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F21-02-003",
+          "title": "3. Open the App",
+          "feature_id": "F21-02",
+          "source": "heading",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F21-03",
+      "title": "Architecture",
+      "source_heading": "## Feature: Architecture [ID=F21-03]",
+      "stories": [
+        {
+          "id": "F21-03-001",
+          "title": "Tech Stack",
+          "feature_id": "F21-03",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F21-03-002",
+          "title": "Project Structure",
+          "feature_id": "F21-03",
+          "source": "heading",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F21-04",
+      "title": "Features",
+      "source_heading": "## Feature: Features [ID=F21-04]",
+      "stories": []
+    },
+    {
+      "id": "F21-05",
+      "title": "API Endpoints",
+      "source_heading": "## Feature: API Endpoints [ID=F21-05]",
+      "stories": []
+    },
+    {
+      "id": "F21-06",
+      "title": "Claude Commands",
+      "source_heading": "## Feature: Claude Commands [ID=F21-06]",
+      "stories": [
+        {
+          "id": "F21-06-001",
+          "title": "Planning & Execution",
+          "feature_id": "F21-06",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F21-06-002",
+          "title": "Validation",
+          "feature_id": "F21-06",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F21-06-003",
+          "title": "Bug Fixing",
+          "feature_id": "F21-06",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F21-06-004",
+          "title": "Misc",
+          "feature_id": "F21-06",
+          "source": "heading",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F21-HEALTH",
+      "title": "HEALTH API",
+      "source_heading": "## Feature: HEALTH API [ID=F21-HEALTH]",
+      "stories": [
+        {
+          "id": "F21-HEALTH-001",
+          "title": "GET /health",
+          "feature_id": "F21-HEALTH",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F21-HEALTH-001",
+          "title": "GET /health",
+          "feature_id": "F21-HEALTH",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F21-COMPLETE",
+      "title": "COMPLETE API",
+      "source_heading": "## Feature: COMPLETE API [ID=F21-COMPLETE]",
+      "stories": [
+        {
+          "id": "F21-COMPLETE-001",
+          "title": "POST /complete",
+          "feature_id": "F21-COMPLETE",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F21-COMPLETE-001",
+          "title": "POST /complete",
+          "feature_id": "F21-COMPLETE",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F21-SKIP",
+      "title": "SKIP API",
+      "source_heading": "## Feature: SKIP API [ID=F21-SKIP]",
+      "stories": [
+        {
+          "id": "F21-SKIP-001",
+          "title": "POST /skip",
+          "feature_id": "F21-SKIP",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F21-SKIP-001",
+          "title": "POST /skip",
+          "feature_id": "F21-SKIP",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F21-COMPLETIONS",
+      "title": "COMPLETIONS API",
+      "source_heading": "## Feature: COMPLETIONS API [ID=F21-COMPLETIONS]",
+      "stories": [
+        {
+          "id": "F21-COMPLETIONS-001",
+          "title": "DELETE /completions/{date}",
+          "feature_id": "F21-COMPLETIONS",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F21-COMPLETIONS-002",
+          "title": "GET /completions",
+          "feature_id": "F21-COMPLETIONS",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F21-COMPLETIONS-001",
+          "title": "DELETE /completions/{date}",
+          "feature_id": "F21-COMPLETIONS",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F21-COMPLETIONS-002",
+          "title": "GET /completions",
+          "feature_id": "F21-COMPLETIONS",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F21-API",
+      "title": "API API",
+      "source_heading": "## Feature: API API [ID=F21-API]",
+      "stories": [
+        {
+          "id": "F21-API-001",
+          "title": "GET /",
+          "feature_id": "F21-API",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F21-API-002",
+          "title": "POST /",
+          "feature_id": "F21-API",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F21-API-001",
+          "title": "GET /",
+          "feature_id": "F21-API",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F21-API-002",
+          "title": "POST /",
+          "feature_id": "F21-API",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F21-HABIT_ID",
+      "title": "HABIT_ID API",
+      "source": "code-structure",
+      "stories": [
+        {
+          "id": "F21-HABIT_ID-001",
+          "title": "GET /{habit_id}",
+          "feature_id": "F21-HABIT_ID",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F21-HABIT_ID-002",
+          "title": "PUT /{habit_id}",
+          "feature_id": "F21-HABIT_ID",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F21-HABIT_ID-003",
+          "title": "DELETE /{habit_id}",
+          "feature_id": "F21-HABIT_ID",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F21-HABIT_ID-004",
+          "title": "PATCH /{habit_id}/archive",
+          "feature_id": "F21-HABIT_ID",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        }
+      ]
+    }
+  ]
+}

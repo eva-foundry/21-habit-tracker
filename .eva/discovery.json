@@ -1,0 +1,1531 @@
+{
+  "meta": {
+    "schema": "eva.discovery.v2",
+    "generated_at": "2026-02-25T06:37:17.251Z",
+    "repo": "C:\\AICOE\\eva-foundation\\21-habit-tracker"
+  },
+  "project": null,
+  "planned": {
+    "epic": {
+      "title": "Habit Tracker",
+      "source": "README.md"
+    },
+    "features": [
+      {
+        "id": "F21-01",
+        "title": "HABIT_ID API [ID=F21-HABIT_ID]",
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F21-02",
+        "title": "Quick Start",
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F21-03",
+        "title": "Architecture",
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F21-04",
+        "title": "Features",
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F21-05",
+        "title": "API Endpoints",
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F21-06",
+        "title": "Claude Commands",
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F21-HEALTH",
+        "title": "HEALTH API",
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F21-COMPLETE",
+        "title": "COMPLETE API",
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F21-SKIP",
+        "title": "SKIP API",
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F21-COMPLETIONS",
+        "title": "COMPLETIONS API",
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F21-API",
+        "title": "API API",
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F21-HABIT_ID",
+        "title": "HABIT_ID API",
+        "source": "veritas-plan.json"
+      }
+    ],
+    "stories": [
+      {
+        "id": "F21-01-001",
+        "title": "GET /{habit_id} [ID=F21-HABIT_ID-001]",
+        "feature_id": "F21-01",
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F21-01-002",
+        "title": "PUT /{habit_id} [ID=F21-HABIT_ID-002]",
+        "feature_id": "F21-01",
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F21-01-003",
+        "title": "DELETE /{habit_id} [ID=F21-HABIT_ID-003]",
+        "feature_id": "F21-01",
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F21-01-004",
+        "title": "PATCH /{habit_id}/archive [ID=F21-HABIT_ID-004]",
+        "feature_id": "F21-01",
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F21-02-001",
+        "title": "1. Clone and Setup Backend",
+        "feature_id": "F21-02",
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F21-02-002",
+        "title": "2. Setup Frontend (new terminal)",
+        "feature_id": "F21-02",
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F21-02-003",
+        "title": "3. Open the App",
+        "feature_id": "F21-02",
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F21-03-001",
+        "title": "Tech Stack",
+        "feature_id": "F21-03",
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F21-03-002",
+        "title": "Project Structure",
+        "feature_id": "F21-03",
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F21-06-001",
+        "title": "Planning & Execution",
+        "feature_id": "F21-06",
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F21-06-002",
+        "title": "Validation",
+        "feature_id": "F21-06",
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F21-06-003",
+        "title": "Bug Fixing",
+        "feature_id": "F21-06",
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F21-06-004",
+        "title": "Misc",
+        "feature_id": "F21-06",
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F21-HEALTH-001",
+        "title": "GET /health",
+        "feature_id": "F21-HEALTH",
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F21-HEALTH-001",
+        "title": "GET /health",
+        "feature_id": "F21-HEALTH",
+        "done": false,
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F21-COMPLETE-001",
+        "title": "POST /complete",
+        "feature_id": "F21-COMPLETE",
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F21-COMPLETE-001",
+        "title": "POST /complete",
+        "feature_id": "F21-COMPLETE",
+        "done": false,
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F21-SKIP-001",
+        "title": "POST /skip",
+        "feature_id": "F21-SKIP",
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F21-SKIP-001",
+        "title": "POST /skip",
+        "feature_id": "F21-SKIP",
+        "done": false,
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F21-COMPLETIONS-001",
+        "title": "DELETE /completions/{date}",
+        "feature_id": "F21-COMPLETIONS",
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F21-COMPLETIONS-002",
+        "title": "GET /completions",
+        "feature_id": "F21-COMPLETIONS",
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F21-COMPLETIONS-001",
+        "title": "DELETE /completions/{date}",
+        "feature_id": "F21-COMPLETIONS",
+        "done": false,
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F21-COMPLETIONS-002",
+        "title": "GET /completions",
+        "feature_id": "F21-COMPLETIONS",
+        "done": false,
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F21-API-001",
+        "title": "GET /",
+        "feature_id": "F21-API",
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F21-API-002",
+        "title": "POST /",
+        "feature_id": "F21-API",
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F21-API-001",
+        "title": "GET /",
+        "feature_id": "F21-API",
+        "done": false,
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F21-API-002",
+        "title": "POST /",
+        "feature_id": "F21-API",
+        "done": false,
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F21-HABIT_ID-001",
+        "title": "GET /{habit_id}",
+        "feature_id": "F21-HABIT_ID",
+        "done": false,
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F21-HABIT_ID-002",
+        "title": "PUT /{habit_id}",
+        "feature_id": "F21-HABIT_ID",
+        "done": false,
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F21-HABIT_ID-003",
+        "title": "DELETE /{habit_id}",
+        "feature_id": "F21-HABIT_ID",
+        "done": false,
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F21-HABIT_ID-004",
+        "title": "PATCH /{habit_id}/archive",
+        "feature_id": "F21-HABIT_ID",
+        "done": false,
+        "source": "veritas-plan.json"
+      }
+    ],
+    "tasks": [],
+    "acceptance": [],
+    "declared_status": {}
+  },
+  "actual": {
+    "artifacts": [
+      {
+        "path": ".gitignore",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "CLAUDE.md",
+        "type": "doc",
+        "story_tags": []
+      },
+      {
+        "path": "PIVLoopDiagram.png",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "PLAN.md",
+        "type": "doc",
+        "story_tags": []
+      },
+      {
+        "path": "README.md",
+        "type": "doc",
+        "story_tags": []
+      },
+      {
+        "path": "Top1%AgenticEngineering.png",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": ".claude/PRD.md",
+        "type": "doc",
+        "story_tags": []
+      },
+      {
+        "path": ".github/copilot-instructions.md",
+        "type": "doc",
+        "story_tags": []
+      },
+      {
+        "path": "backend/.coverage",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "backend/habits.db",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "backend/habits.db-shm",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "backend/habits.db-wal",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "backend/pyproject.toml",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "backend/uv.lock",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "frontend/.gitignore",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "frontend/index.html",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "frontend/package-lock.json",
+        "type": "data",
+        "story_tags": []
+      },
+      {
+        "path": "frontend/package.json",
+        "type": "data",
+        "story_tags": []
+      },
+      {
+        "path": "frontend/postcss.config.js",
+        "type": "code",
+        "story_tags": []
+      },
+      {
+        "path": "frontend/tailwind.config.js",
+        "type": "code",
+        "story_tags": []
+      },
+      {
+        "path": "frontend/vite.config.js",
+        "type": "code",
+        "story_tags": []
+      },
+      {
+        "path": ".agents/plans/backend-foundation.md",
+        "type": "doc",
+        "story_tags": []
+      },
+      {
+        "path": ".agents/plans/calendar-view.md",
+        "type": "doc",
+        "story_tags": []
+      },
+      {
+        "path": ".agents/plans/edit-delete-skip-features.md",
+        "type": "doc",
+        "story_tags": []
+      },
+      {
+        "path": ".agents/plans/frontend-foundation.md",
+        "type": "doc",
+        "story_tags": []
+      },
+      {
+        "path": ".claude/commands/commit.md",
+        "type": "doc",
+        "story_tags": []
+      },
+      {
+        "path": ".claude/commands/create-prd.md",
+        "type": "doc",
+        "story_tags": []
+      },
+      {
+        "path": ".claude/commands/init-project.md",
+        "type": "doc",
+        "story_tags": []
+      },
+      {
+        "path": ".claude/reference/deployment-best-practices.md",
+        "type": "doc",
+        "story_tags": []
+      },
+      {
+        "path": ".claude/reference/fastapi-best-practices.md",
+        "type": "doc",
+        "story_tags": []
+      },
+      {
+        "path": ".claude/reference/react-frontend-best-practices.md",
+        "type": "doc",
+        "story_tags": []
+      },
+      {
+        "path": ".claude/reference/sqlite-best-practices.md",
+        "type": "doc",
+        "story_tags": []
+      },
+      {
+        "path": ".claude/reference/testing-and-logging.md",
+        "type": "doc",
+        "story_tags": []
+      },
+      {
+        "path": ".github/copilot-skills/00-skill-index.skill.md",
+        "type": "doc",
+        "story_tags": []
+      },
+      {
+        "path": "backend/app/config.py",
+        "type": "code",
+        "story_tags": []
+      },
+      {
+        "path": "backend/app/database.py",
+        "type": "code",
+        "story_tags": []
+      },
+      {
+        "path": "backend/app/exceptions.py",
+        "type": "code",
+        "story_tags": []
+      },
+      {
+        "path": "backend/app/logging_config.py",
+        "type": "code",
+        "story_tags": []
+      },
+      {
+        "path": "backend/app/main.py",
+        "type": "code",
+        "story_tags": []
+      },
+      {
+        "path": "backend/app/middleware.py",
+        "type": "code",
+        "story_tags": []
+      },
+      {
+        "path": "backend/app/models.py",
+        "type": "code",
+        "story_tags": []
+      },
+      {
+        "path": "backend/app/schemas.py",
+        "type": "code",
+        "story_tags": []
+      },
+      {
+        "path": "backend/app/__init__.py",
+        "type": "code",
+        "story_tags": []
+      },
+      {
+        "path": "backend/tests/conftest.py",
+        "type": "code",
+        "story_tags": []
+      },
+      {
+        "path": "backend/tests/test_api_completions.py",
+        "type": "code",
+        "story_tags": []
+      },
+      {
+        "path": "backend/tests/test_api_habits.py",
+        "type": "code",
+        "story_tags": []
+      },
+      {
+        "path": "backend/tests/test_streak.py",
+        "type": "code",
+        "story_tags": []
+      },
+      {
+        "path": "backend/tests/__init__.py",
+        "type": "code",
+        "story_tags": []
+      },
+      {
+        "path": "frontend/src/App.jsx",
+        "type": "code",
+        "story_tags": []
+      },
+      {
+        "path": "frontend/src/index.css",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "frontend/src/main.jsx",
+        "type": "code",
+        "story_tags": []
+      },
+      {
+        "path": ".claude/commands/core_piv_loop/execute.md",
+        "type": "doc",
+        "story_tags": []
+      },
+      {
+        "path": ".claude/commands/core_piv_loop/plan-feature.md",
+        "type": "doc",
+        "story_tags": []
+      },
+      {
+        "path": ".claude/commands/core_piv_loop/prime.md",
+        "type": "doc",
+        "story_tags": []
+      },
+      {
+        "path": ".claude/commands/github_bug_fix/implement-fix.md",
+        "type": "doc",
+        "story_tags": []
+      },
+      {
+        "path": ".claude/commands/github_bug_fix/rca.md",
+        "type": "doc",
+        "story_tags": []
+      },
+      {
+        "path": ".claude/commands/validation/code-review-fix.md",
+        "type": "doc",
+        "story_tags": []
+      },
+      {
+        "path": ".claude/commands/validation/code-review.md",
+        "type": "doc",
+        "story_tags": []
+      },
+      {
+        "path": ".claude/commands/validation/execution-report.md",
+        "type": "doc",
+        "story_tags": []
+      },
+      {
+        "path": ".claude/commands/validation/system-review.md",
+        "type": "doc",
+        "story_tags": []
+      },
+      {
+        "path": ".claude/commands/validation/validate.md",
+        "type": "doc",
+        "story_tags": []
+      },
+      {
+        "path": "backend/app/routers/completions.py",
+        "type": "code",
+        "story_tags": []
+      },
+      {
+        "path": "backend/app/routers/habits.py",
+        "type": "code",
+        "story_tags": []
+      },
+      {
+        "path": "backend/app/routers/__init__.py",
+        "type": "code",
+        "story_tags": []
+      },
+      {
+        "path": "frontend/src/lib/api.js",
+        "type": "code",
+        "story_tags": []
+      },
+      {
+        "path": "frontend/src/pages/Dashboard.jsx",
+        "type": "code",
+        "story_tags": []
+      },
+      {
+        "path": "frontend/src/components/ui/Button.jsx",
+        "type": "code",
+        "story_tags": []
+      },
+      {
+        "path": "frontend/src/components/ui/Card.jsx",
+        "type": "code",
+        "story_tags": []
+      },
+      {
+        "path": "frontend/src/components/ui/ConfirmDialog.jsx",
+        "type": "code",
+        "story_tags": []
+      },
+      {
+        "path": "frontend/src/components/ui/Spinner.jsx",
+        "type": "code",
+        "story_tags": []
+      },
+      {
+        "path": "frontend/src/features/habits/index.js",
+        "type": "code",
+        "story_tags": []
+      },
+      {
+        "path": "frontend/src/features/calendar/index.js",
+        "type": "code",
+        "story_tags": [
+          "F21-01-001",
+          "F21-01-002",
+          "F21-01-003",
+          "F21-01-004",
+          "F21-02-001",
+          "F21-02-002",
+          "F21-02-003",
+          "F21-03-001",
+          "F21-03-002",
+          "F21-06-001",
+          "F21-06-002",
+          "F21-06-003",
+          "F21-06-004",
+          "F21-API-001",
+          "F21-API-002",
+          "F21-COMPLETE-001",
+          "F21-COMPLETIONS-001",
+          "F21-COMPLETIONS-002",
+          "F21-HABIT_ID-001",
+          "F21-HABIT_ID-002",
+          "F21-HABIT_ID-003",
+          "F21-HABIT_ID-004",
+          "F21-HEALTH-001",
+          "F21-SKIP-001"
+        ]
+      },
+      {
+        "path": "frontend/src/features/habits/api/habits.js",
+        "type": "code",
+        "story_tags": []
+      },
+      {
+        "path": "frontend/src/features/habits/hooks/useHabits.js",
+        "type": "code",
+        "story_tags": []
+      },
+      {
+        "path": "frontend/src/features/habits/components/HabitCard.jsx",
+        "type": "code",
+        "story_tags": []
+      },
+      {
+        "path": "frontend/src/features/habits/components/HabitForm.jsx",
+        "type": "code",
+        "story_tags": []
+      },
+      {
+        "path": "frontend/src/features/habits/components/HabitList.jsx",
+        "type": "code",
+        "story_tags": []
+      },
+      {
+        "path": "frontend/src/features/calendar/components/Calendar.jsx",
+        "type": "code",
+        "story_tags": []
+      },
+      {
+        "path": "frontend/src/features/calendar/components/CalendarDay.jsx",
+        "type": "code",
+        "story_tags": []
+      },
+      {
+        "path": "frontend/src/features/calendar/components/CalendarGrid.jsx",
+        "type": "code",
+        "story_tags": []
+      },
+      {
+        "path": "frontend/src/features/calendar/hooks/useCompletions.js",
+        "type": "code",
+        "story_tags": []
+      }
+    ],
+    "story_artifact_map": {
+      "F21-01-001": {
+        "artifacts": [
+          {
+            "path": "frontend/src/features/calendar/index.js",
+            "type": "code",
+            "story_tags": [
+              "F21-01-001",
+              "F21-01-002",
+              "F21-01-003",
+              "F21-01-004",
+              "F21-02-001",
+              "F21-02-002",
+              "F21-02-003",
+              "F21-03-001",
+              "F21-03-002",
+              "F21-06-001",
+              "F21-06-002",
+              "F21-06-003",
+              "F21-06-004",
+              "F21-API-001",
+              "F21-API-002",
+              "F21-COMPLETE-001",
+              "F21-COMPLETIONS-001",
+              "F21-COMPLETIONS-002",
+              "F21-HABIT_ID-001",
+              "F21-HABIT_ID-002",
+              "F21-HABIT_ID-003",
+              "F21-HABIT_ID-004",
+              "F21-HEALTH-001",
+              "F21-SKIP-001"
+            ]
+          }
+        ]
+      },
+      "F21-01-002": {
+        "artifacts": [
+          {
+            "path": "frontend/src/features/calendar/index.js",
+            "type": "code",
+            "story_tags": [
+              "F21-01-001",
+              "F21-01-002",
+              "F21-01-003",
+              "F21-01-004",
+              "F21-02-001",
+              "F21-02-002",
+              "F21-02-003",
+              "F21-03-001",
+              "F21-03-002",
+              "F21-06-001",
+              "F21-06-002",
+              "F21-06-003",
+              "F21-06-004",
+              "F21-API-001",
+              "F21-API-002",
+              "F21-COMPLETE-001",
+              "F21-COMPLETIONS-001",
+              "F21-COMPLETIONS-002",
+              "F21-HABIT_ID-001",
+              "F21-HABIT_ID-002",
+              "F21-HABIT_ID-003",
+              "F21-HABIT_ID-004",
+              "F21-HEALTH-001",
+              "F21-SKIP-001"
+            ]
+          }
+        ]
+      },
+      "F21-01-003": {
+        "artifacts": [
+          {
+            "path": "frontend/src/features/calendar/index.js",
+            "type": "code",
+            "story_tags": [
+              "F21-01-001",
+              "F21-01-002",
+              "F21-01-003",
+              "F21-01-004",
+              "F21-02-001",
+              "F21-02-002",
+              "F21-02-003",
+              "F21-03-001",
+              "F21-03-002",
+              "F21-06-001",
+              "F21-06-002",
+              "F21-06-003",
+              "F21-06-004",
+              "F21-API-001",
+              "F21-API-002",
+              "F21-COMPLETE-001",
+              "F21-COMPLETIONS-001",
+              "F21-COMPLETIONS-002",
+              "F21-HABIT_ID-001",
+              "F21-HABIT_ID-002",
+              "F21-HABIT_ID-003",
+              "F21-HABIT_ID-004",
+              "F21-HEALTH-001",
+              "F21-SKIP-001"
+            ]
+          }
+        ]
+      },
+      "F21-01-004": {
+        "artifacts": [
+          {
+            "path": "frontend/src/features/calendar/index.js",
+            "type": "code",
+            "story_tags": [
+              "F21-01-001",
+              "F21-01-002",
+              "F21-01-003",
+              "F21-01-004",
+              "F21-02-001",
+              "F21-02-002",
+              "F21-02-003",
+              "F21-03-001",
+              "F21-03-002",
+              "F21-06-001",
+              "F21-06-002",
+              "F21-06-003",
+              "F21-06-004",
+              "F21-API-001",
+              "F21-API-002",
+              "F21-COMPLETE-001",
+              "F21-COMPLETIONS-001",
+              "F21-COMPLETIONS-002",
+              "F21-HABIT_ID-001",
+              "F21-HABIT_ID-002",
+              "F21-HABIT_ID-003",
+              "F21-HABIT_ID-004",
+              "F21-HEALTH-001",
+              "F21-SKIP-001"
+            ]
+          }
+        ]
+      },
+      "F21-02-001": {
+        "artifacts": [
+          {
+            "path": "frontend/src/features/calendar/index.js",
+            "type": "code",
+            "story_tags": [
+              "F21-01-001",
+              "F21-01-002",
+              "F21-01-003",
+              "F21-01-004",
+              "F21-02-001",
+              "F21-02-002",
+              "F21-02-003",
+              "F21-03-001",
+              "F21-03-002",
+              "F21-06-001",
+              "F21-06-002",
+              "F21-06-003",
+              "F21-06-004",
+              "F21-API-001",
+              "F21-API-002",
+              "F21-COMPLETE-001",
+              "F21-COMPLETIONS-001",
+              "F21-COMPLETIONS-002",
+              "F21-HABIT_ID-001",
+              "F21-HABIT_ID-002",
+              "F21-HABIT_ID-003",
+              "F21-HABIT_ID-004",
+              "F21-HEALTH-001",
+              "F21-SKIP-001"
+            ]
+          }
+        ]
+      },
+      "F21-02-002": {
+        "artifacts": [
+          {
+            "path": "frontend/src/features/calendar/index.js",
+            "type": "code",
+            "story_tags": [
+              "F21-01-001",
+              "F21-01-002",
+              "F21-01-003",
+              "F21-01-004",
+              "F21-02-001",
+              "F21-02-002",
+              "F21-02-003",
+              "F21-03-001",
+              "F21-03-002",
+              "F21-06-001",
+              "F21-06-002",
+              "F21-06-003",
+              "F21-06-004",
+              "F21-API-001",
+              "F21-API-002",
+              "F21-COMPLETE-001",
+              "F21-COMPLETIONS-001",
+              "F21-COMPLETIONS-002",
+              "F21-HABIT_ID-001",
+              "F21-HABIT_ID-002",
+              "F21-HABIT_ID-003",
+              "F21-HABIT_ID-004",
+              "F21-HEALTH-001",
+              "F21-SKIP-001"
+            ]
+          }
+        ]
+      },
+      "F21-02-003": {
+        "artifacts": [
+          {
+            "path": "frontend/src/features/calendar/index.js",
+            "type": "code",
+            "story_tags": [
+              "F21-01-001",
+              "F21-01-002",
+              "F21-01-003",
+              "F21-01-004",
+              "F21-02-001",
+              "F21-02-002",
+              "F21-02-003",
+              "F21-03-001",
+              "F21-03-002",
+              "F21-06-001",
+              "F21-06-002",
+              "F21-06-003",
+              "F21-06-004",
+              "F21-API-001",
+              "F21-API-002",
+              "F21-COMPLETE-001",
+              "F21-COMPLETIONS-001",
+              "F21-COMPLETIONS-002",
+              "F21-HABIT_ID-001",
+              "F21-HABIT_ID-002",
+              "F21-HABIT_ID-003",
+              "F21-HABIT_ID-004",
+              "F21-HEALTH-001",
+              "F21-SKIP-001"
+            ]
+          }
+        ]
+      },
+      "F21-03-001": {
+        "artifacts": [
+          {
+            "path": "frontend/src/features/calendar/index.js",
+            "type": "code",
+            "story_tags": [
+              "F21-01-001",
+              "F21-01-002",
+              "F21-01-003",
+              "F21-01-004",
+              "F21-02-001",
+              "F21-02-002",
+              "F21-02-003",
+              "F21-03-001",
+              "F21-03-002",
+              "F21-06-001",
+              "F21-06-002",
+              "F21-06-003",
+              "F21-06-004",
+              "F21-API-001",
+              "F21-API-002",
+              "F21-COMPLETE-001",
+              "F21-COMPLETIONS-001",
+              "F21-COMPLETIONS-002",
+              "F21-HABIT_ID-001",
+              "F21-HABIT_ID-002",
+              "F21-HABIT_ID-003",
+              "F21-HABIT_ID-004",
+              "F21-HEALTH-001",
+              "F21-SKIP-001"
+            ]
+          }
+        ]
+      },
+      "F21-03-002": {
+        "artifacts": [
+          {
+            "path": "frontend/src/features/calendar/index.js",
+            "type": "code",
+            "story_tags": [
+              "F21-01-001",
+              "F21-01-002",
+              "F21-01-003",
+              "F21-01-004",
+              "F21-02-001",
+              "F21-02-002",
+              "F21-02-003",
+              "F21-03-001",
+              "F21-03-002",
+              "F21-06-001",
+              "F21-06-002",
+              "F21-06-003",
+              "F21-06-004",
+              "F21-API-001",
+              "F21-API-002",
+              "F21-COMPLETE-001",
+              "F21-COMPLETIONS-001",
+              "F21-COMPLETIONS-002",
+              "F21-HABIT_ID-001",
+              "F21-HABIT_ID-002",
+              "F21-HABIT_ID-003",
+              "F21-HABIT_ID-004",
+              "F21-HEALTH-001",
+              "F21-SKIP-001"
+            ]
+          }
+        ]
+      },
+      "F21-06-001": {
+        "artifacts": [
+          {
+            "path": "frontend/src/features/calendar/index.js",
+            "type": "code",
+            "story_tags": [
+              "F21-01-001",
+              "F21-01-002",
+              "F21-01-003",
+              "F21-01-004",
+              "F21-02-001",
+              "F21-02-002",
+              "F21-02-003",
+              "F21-03-001",
+              "F21-03-002",
+              "F21-06-001",
+              "F21-06-002",
+              "F21-06-003",
+              "F21-06-004",
+              "F21-API-001",
+              "F21-API-002",
+              "F21-COMPLETE-001",
+              "F21-COMPLETIONS-001",
+              "F21-COMPLETIONS-002",
+              "F21-HABIT_ID-001",
+              "F21-HABIT_ID-002",
+              "F21-HABIT_ID-003",
+              "F21-HABIT_ID-004",
+              "F21-HEALTH-001",
+              "F21-SKIP-001"
+            ]
+          }
+        ]
+      },
+      "F21-06-002": {
+        "artifacts": [
+          {
+            "path": "frontend/src/features/calendar/index.js",
+            "type": "code",
+            "story_tags": [
+              "F21-01-001",
+              "F21-01-002",
+              "F21-01-003",
+              "F21-01-004",
+              "F21-02-001",
+              "F21-02-002",
+              "F21-02-003",
+              "F21-03-001",
+              "F21-03-002",
+              "F21-06-001",
+              "F21-06-002",
+              "F21-06-003",
+              "F21-06-004",
+              "F21-API-001",
+              "F21-API-002",
+              "F21-COMPLETE-001",
+              "F21-COMPLETIONS-001",
+              "F21-COMPLETIONS-002",
+              "F21-HABIT_ID-001",
+              "F21-HABIT_ID-002",
+              "F21-HABIT_ID-003",
+              "F21-HABIT_ID-004",
+              "F21-HEALTH-001",
+              "F21-SKIP-001"
+            ]
+          }
+        ]
+      },
+      "F21-06-003": {
+        "artifacts": [
+          {
+            "path": "frontend/src/features/calendar/index.js",
+            "type": "code",
+            "story_tags": [
+              "F21-01-001",
+              "F21-01-002",
+              "F21-01-003",
+              "F21-01-004",
+              "F21-02-001",
+              "F21-02-002",
+              "F21-02-003",
+              "F21-03-001",
+              "F21-03-002",
+              "F21-06-001",
+              "F21-06-002",
+              "F21-06-003",
+              "F21-06-004",
+              "F21-API-001",
+              "F21-API-002",
+              "F21-COMPLETE-001",
+              "F21-COMPLETIONS-001",
+              "F21-COMPLETIONS-002",
+              "F21-HABIT_ID-001",
+              "F21-HABIT_ID-002",
+              "F21-HABIT_ID-003",
+              "F21-HABIT_ID-004",
+              "F21-HEALTH-001",
+              "F21-SKIP-001"
+            ]
+          }
+        ]
+      },
+      "F21-06-004": {
+        "artifacts": [
+          {
+            "path": "frontend/src/features/calendar/index.js",
+            "type": "code",
+            "story_tags": [
+              "F21-01-001",
+              "F21-01-002",
+              "F21-01-003",
+              "F21-01-004",
+              "F21-02-001",
+              "F21-02-002",
+              "F21-02-003",
+              "F21-03-001",
+              "F21-03-002",
+              "F21-06-001",
+              "F21-06-002",
+              "F21-06-003",
+              "F21-06-004",
+              "F21-API-001",
+              "F21-API-002",
+              "F21-COMPLETE-001",
+              "F21-COMPLETIONS-001",
+              "F21-COMPLETIONS-002",
+              "F21-HABIT_ID-001",
+              "F21-HABIT_ID-002",
+              "F21-HABIT_ID-003",
+              "F21-HABIT_ID-004",
+              "F21-HEALTH-001",
+              "F21-SKIP-001"
+            ]
+          }
+        ]
+      },
+      "F21-API-001": {
+        "artifacts": [
+          {
+            "path": "frontend/src/features/calendar/index.js",
+            "type": "code",
+            "story_tags": [
+              "F21-01-001",
+              "F21-01-002",
+              "F21-01-003",
+              "F21-01-004",
+              "F21-02-001",
+              "F21-02-002",
+              "F21-02-003",
+              "F21-03-001",
+              "F21-03-002",
+              "F21-06-001",
+              "F21-06-002",
+              "F21-06-003",
+              "F21-06-004",
+              "F21-API-001",
+              "F21-API-002",
+              "F21-COMPLETE-001",
+              "F21-COMPLETIONS-001",
+              "F21-COMPLETIONS-002",
+              "F21-HABIT_ID-001",
+              "F21-HABIT_ID-002",
+              "F21-HABIT_ID-003",
+              "F21-HABIT_ID-004",
+              "F21-HEALTH-001",
+              "F21-SKIP-001"
+            ]
+          }
+        ]
+      },
+      "F21-API-002": {
+        "artifacts": [
+          {
+            "path": "frontend/src/features/calendar/index.js",
+            "type": "code",
+            "story_tags": [
+              "F21-01-001",
+              "F21-01-002",
+              "F21-01-003",
+              "F21-01-004",
+              "F21-02-001",
+              "F21-02-002",
+              "F21-02-003",
+              "F21-03-001",
+              "F21-03-002",
+              "F21-06-001",
+              "F21-06-002",
+              "F21-06-003",
+              "F21-06-004",
+              "F21-API-001",
+              "F21-API-002",
+              "F21-COMPLETE-001",
+              "F21-COMPLETIONS-001",
+              "F21-COMPLETIONS-002",
+              "F21-HABIT_ID-001",
+              "F21-HABIT_ID-002",
+              "F21-HABIT_ID-003",
+              "F21-HABIT_ID-004",
+              "F21-HEALTH-001",
+              "F21-SKIP-001"
+            ]
+          }
+        ]
+      },
+      "F21-COMPLETE-001": {
+        "artifacts": [
+          {
+            "path": "frontend/src/features/calendar/index.js",
+            "type": "code",
+            "story_tags": [
+              "F21-01-001",
+              "F21-01-002",
+              "F21-01-003",
+              "F21-01-004",
+              "F21-02-001",
+              "F21-02-002",
+              "F21-02-003",
+              "F21-03-001",
+              "F21-03-002",
+              "F21-06-001",
+              "F21-06-002",
+              "F21-06-003",
+              "F21-06-004",
+              "F21-API-001",
+              "F21-API-002",
+              "F21-COMPLETE-001",
+              "F21-COMPLETIONS-001",
+              "F21-COMPLETIONS-002",
+              "F21-HABIT_ID-001",
+              "F21-HABIT_ID-002",
+              "F21-HABIT_ID-003",
+              "F21-HABIT_ID-004",
+              "F21-HEALTH-001",
+              "F21-SKIP-001"
+            ]
+          }
+        ]
+      },
+      "F21-COMPLETIONS-001": {
+        "artifacts": [
+          {
+            "path": "frontend/src/features/calendar/index.js",
+            "type": "code",
+            "story_tags": [
+              "F21-01-001",
+              "F21-01-002",
+              "F21-01-003",
+              "F21-01-004",
+              "F21-02-001",
+              "F21-02-002",
+              "F21-02-003",
+              "F21-03-001",
+              "F21-03-002",
+              "F21-06-001",
+              "F21-06-002",
+              "F21-06-003",
+              "F21-06-004",
+              "F21-API-001",
+              "F21-API-002",
+              "F21-COMPLETE-001",
+              "F21-COMPLETIONS-001",
+              "F21-COMPLETIONS-002",
+              "F21-HABIT_ID-001",
+              "F21-HABIT_ID-002",
+              "F21-HABIT_ID-003",
+              "F21-HABIT_ID-004",
+              "F21-HEALTH-001",
+              "F21-SKIP-001"
+            ]
+          }
+        ]
+      },
+      "F21-COMPLETIONS-002": {
+        "artifacts": [
+          {
+            "path": "frontend/src/features/calendar/index.js",
+            "type": "code",
+            "story_tags": [
+              "F21-01-001",
+              "F21-01-002",
+              "F21-01-003",
+              "F21-01-004",
+              "F21-02-001",
+              "F21-02-002",
+              "F21-02-003",
+              "F21-03-001",
+              "F21-03-002",
+              "F21-06-001",
+              "F21-06-002",
+              "F21-06-003",
+              "F21-06-004",
+              "F21-API-001",
+              "F21-API-002",
+              "F21-COMPLETE-001",
+              "F21-COMPLETIONS-001",
+              "F21-COMPLETIONS-002",
+              "F21-HABIT_ID-001",
+              "F21-HABIT_ID-002",
+              "F21-HABIT_ID-003",
+              "F21-HABIT_ID-004",
+              "F21-HEALTH-001",
+              "F21-SKIP-001"
+            ]
+          }
+        ]
+      },
+      "F21-HABIT_ID-001": {
+        "artifacts": [
+          {
+            "path": "frontend/src/features/calendar/index.js",
+            "type": "code",
+            "story_tags": [
+              "F21-01-001",
+              "F21-01-002",
+              "F21-01-003",
+              "F21-01-004",
+              "F21-02-001",
+              "F21-02-002",
+              "F21-02-003",
+              "F21-03-001",
+              "F21-03-002",
+              "F21-06-001",
+              "F21-06-002",
+              "F21-06-003",
+              "F21-06-004",
+              "F21-API-001",
+              "F21-API-002",
+              "F21-COMPLETE-001",
+              "F21-COMPLETIONS-001",
+              "F21-COMPLETIONS-002",
+              "F21-HABIT_ID-001",
+              "F21-HABIT_ID-002",
+              "F21-HABIT_ID-003",
+              "F21-HABIT_ID-004",
+              "F21-HEALTH-001",
+              "F21-SKIP-001"
+            ]
+          }
+        ]
+      },
+      "F21-HABIT_ID-002": {
+        "artifacts": [
+          {
+            "path": "frontend/src/features/calendar/index.js",
+            "type": "code",
+            "story_tags": [
+              "F21-01-001",
+              "F21-01-002",
+              "F21-01-003",
+              "F21-01-004",
+              "F21-02-001",
+              "F21-02-002",
+              "F21-02-003",
+              "F21-03-001",
+              "F21-03-002",
+              "F21-06-001",
+              "F21-06-002",
+              "F21-06-003",
+              "F21-06-004",
+              "F21-API-001",
+              "F21-API-002",
+              "F21-COMPLETE-001",
+              "F21-COMPLETIONS-001",
+              "F21-COMPLETIONS-002",
+              "F21-HABIT_ID-001",
+              "F21-HABIT_ID-002",
+              "F21-HABIT_ID-003",
+              "F21-HABIT_ID-004",
+              "F21-HEALTH-001",
+              "F21-SKIP-001"
+            ]
+          }
+        ]
+      },
+      "F21-HABIT_ID-003": {
+        "artifacts": [
+          {
+            "path": "frontend/src/features/calendar/index.js",
+            "type": "code",
+            "story_tags": [
+              "F21-01-001",
+              "F21-01-002",
+              "F21-01-003",
+              "F21-01-004",
+              "F21-02-001",
+              "F21-02-002",
+              "F21-02-003",
+              "F21-03-001",
+              "F21-03-002",
+              "F21-06-001",
+              "F21-06-002",
+              "F21-06-003",
+              "F21-06-004",
+              "F21-API-001",
+              "F21-API-002",
+              "F21-COMPLETE-001",
+              "F21-COMPLETIONS-001",
+              "F21-COMPLETIONS-002",
+              "F21-HABIT_ID-001",
+              "F21-HABIT_ID-002",
+              "F21-HABIT_ID-003",
+              "F21-HABIT_ID-004",
+              "F21-HEALTH-001",
+              "F21-SKIP-001"
+            ]
+          }
+        ]
+      },
+      "F21-HABIT_ID-004": {
+        "artifacts": [
+          {
+            "path": "frontend/src/features/calendar/index.js",
+            "type": "code",
+            "story_tags": [
+              "F21-01-001",
+              "F21-01-002",
+              "F21-01-003",
+              "F21-01-004",
+              "F21-02-001",
+              "F21-02-002",
+              "F21-02-003",
+              "F21-03-001",
+              "F21-03-002",
+              "F21-06-001",
+              "F21-06-002",
+              "F21-06-003",
+              "F21-06-004",
+              "F21-API-001",
+              "F21-API-002",
+              "F21-COMPLETE-001",
+              "F21-COMPLETIONS-001",
+              "F21-COMPLETIONS-002",
+              "F21-HABIT_ID-001",
+              "F21-HABIT_ID-002",
+              "F21-HABIT_ID-003",
+              "F21-HABIT_ID-004",
+              "F21-HEALTH-001",
+              "F21-SKIP-001"
+            ]
+          }
+        ]
+      },
+      "F21-HEALTH-001": {
+        "artifacts": [
+          {
+            "path": "frontend/src/features/calendar/index.js",
+            "type": "code",
+            "story_tags": [
+              "F21-01-001",
+              "F21-01-002",
+              "F21-01-003",
+              "F21-01-004",
+              "F21-02-001",
+              "F21-02-002",
+              "F21-02-003",
+              "F21-03-001",
+              "F21-03-002",
+              "F21-06-001",
+              "F21-06-002",
+              "F21-06-003",
+              "F21-06-004",
+              "F21-API-001",
+              "F21-API-002",
+              "F21-COMPLETE-001",
+              "F21-COMPLETIONS-001",
+              "F21-COMPLETIONS-002",
+              "F21-HABIT_ID-001",
+              "F21-HABIT_ID-002",
+              "F21-HABIT_ID-003",
+              "F21-HABIT_ID-004",
+              "F21-HEALTH-001",
+              "F21-SKIP-001"
+            ]
+          }
+        ]
+      },
+      "F21-SKIP-001": {
+        "artifacts": [
+          {
+            "path": "frontend/src/features/calendar/index.js",
+            "type": "code",
+            "story_tags": [
+              "F21-01-001",
+              "F21-01-002",
+              "F21-01-003",
+              "F21-01-004",
+              "F21-02-001",
+              "F21-02-002",
+              "F21-02-003",
+              "F21-03-001",
+              "F21-03-002",
+              "F21-06-001",
+              "F21-06-002",
+              "F21-06-003",
+              "F21-06-004",
+              "F21-API-001",
+              "F21-API-002",
+              "F21-COMPLETE-001",
+              "F21-COMPLETIONS-001",
+              "F21-COMPLETIONS-002",
+              "F21-HABIT_ID-001",
+              "F21-HABIT_ID-002",
+              "F21-HABIT_ID-003",
+              "F21-HABIT_ID-004",
+              "F21-HEALTH-001",
+              "F21-SKIP-001"
+            ]
+          }
+        ]
+      }
+    },
+    "commit_evidence_map": {}
+  }
+}
